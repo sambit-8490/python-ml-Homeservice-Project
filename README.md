@@ -72,7 +72,8 @@ docker run -p 8000:8000 homeservice-app
 
 Create superuser inside container:
 
-docker exec -it <container_name> python manage.py createsuperuser:
+docker exec -it blissful_blackburn (container name) /bin/sh
+
 python manage.py createsuperuser
 
 Example input for superuser creation:
